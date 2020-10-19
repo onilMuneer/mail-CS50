@@ -1,0 +1,34 @@
+textarea {
+    min-height: 400px;
+}
+
+.coverDiv{
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.coverDiv:hover{
+  border-color: black;
+}
+
+#email-body{
+  background-color: #f2f2f2;
+  height: auto;
+}
+
+.mailDate, .mailSender, .mailSubject{
+  pointer-events: none;
+}
+
+@media screen and (max-width: 600px) {
+  .mailDate, .mailSender, .mailSubject {
+    font-size: 10px;
+  }
+}
+
+
+/* #compose-view{
+  display: none;
+} */
